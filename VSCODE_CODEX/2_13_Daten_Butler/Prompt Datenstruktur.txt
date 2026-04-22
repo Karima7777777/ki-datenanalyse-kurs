@@ -1,0 +1,31 @@
+Ich habe lokal eine CSV-Datei auf meinem Rechner.
+
+Bitte erstelle mir ein Python-Skript (name: analyse_datenstruktur.py), das:
+
+die CSV-Datei einliest (ohne Inhalte anzuzeigen),
+die Spaltennamen analysiert,
+die Datentypen der Spalten auswertet,
+die Anzahl der Zeilen und Spalten bestimmt,
+prüft, ob es fehlende Werte pro Spalte gibt,
+KEINE Datenwerte oder Beispiele ausgibt,
+das Ergebnis NICHT ins Terminal schreibt,
+sondern in eine lokale Textdatei analysis_reportstruktur_YYYYMMDDHHMM.txt mit aktuellem Datum und Uhrzeit).
+Die Textdatei soll:
+
+eine klare Überschrift enthalten,
+logisch gegliederte Abschnitte haben,
+gut lesbar für Nicht-Techniker sein.
+
+Wichtig:
+Das Skript soll ausschließlich lokal laufen.
+Es sollen keine Daten hochgeladen oder an die KI zurückgegeben werden.
+Ziel ist nur, die Struktur und Qualität der Daten zu verstehen.
+Verwende pandas.
+Der Dateiname der CSV soll leicht anpassbar sein.
+
+Baue am Anfang des Skripts einen Kommentar ein,
+der erklärt, dass dieses Skript keine Daten an externe Systeme sendet
+und ausschließlich lokal arbeitet.
+
+Im Terminal soll nur eine kurze Bestätigung erscheinen,
+dass die Analyse abgeschlossen ist und wo die Datei gespeichert wurde.
