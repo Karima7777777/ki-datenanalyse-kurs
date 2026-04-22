@@ -10,7 +10,8 @@
         "mathematic.vscode-pdf",
         "kvling.powered-csv-viewer",
         "GitHub.copilot",
-        "GitHub.copilot-chat"
+        "GitHub.copilot-chat",
+        "openai.chatgpt"
       ],
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
