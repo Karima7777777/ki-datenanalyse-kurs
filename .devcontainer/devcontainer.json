@@ -1,5 +1,5 @@
 {
-  "name": "VSCode_T",
+  "name": "KI-Datenanalyse Kurs",
   "image": "mcr.microsoft.com/devcontainers/python:3.11-bullseye",
   "postCreateCommand": "pip install -r .devcontainer/requirements.txt",
   "customizations": {
@@ -16,7 +16,10 @@
       "settings": {
         "python.defaultInterpreterPath": "/usr/local/bin/python",
         "editor.fontSize": 14,
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "remote.extensionKind": {
+          "openai.chatgpt": "ui"
+        }
       }
     }
   }
